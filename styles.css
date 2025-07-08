@@ -1,0 +1,76 @@
+.custom-watch-later-container {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.1s ease;
+}
+
+.shortsLockupViewModelHostThumbnailContainer:hover .custom-watch-later-container {
+  opacity: 1.0;
+  pointer-events: all;
+}
+
+.custom-watch-later-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 28px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  width: 28px;
+  transition: width 0.3s ease, opacity 0.1s ease;
+}
+
+.custom-watch-later-button:hover {
+  opacity: 1.0;
+}
+
+.custom-watch-later-button.hover-watch-later:hover {
+  width: 100px;
+}
+
+.custom-watch-later-button.hover-added:hover {
+  width: 74px;
+}
+
+.custom-watch-later-button svg {
+  width: 20px;
+  height: 20px;
+  margin: 4px;
+  fill: currentColor;
+  flex-shrink: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.custom-watch-later-label {
+  position: absolute;
+  left: 0;
+  padding-left: 8px;
+  font-size: 12px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 500;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: white;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.1s ease 0.1s;
+  z-index: 1;
+}
+
+.custom-watch-later-button:hover .custom-watch-later-label {
+  transform: translateX(0);
+  opacity: 1.0;
+}
