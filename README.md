@@ -24,6 +24,10 @@ Browse YouTube as you normally would, but now when you want to add a Short to yo
 ## Bugs
 If you find one, feel free to open up a new issue or even better, create a pull request fixing it. But then again, this extension is relatively simple, so I don't expect for there to be any.
 
+## Change Log
+* v1.0 - initial release
+* v1.1 - updated visuals
+
 ## Contributors
 Sachin Agrawal: I'm a self-taught programmer who knows many languages and I'm into app, game, and web development. For more information, check out my website or Github profile. If you would like to contact me, my email is [github@sachin.email](mailto:github@sachin.email).
 
